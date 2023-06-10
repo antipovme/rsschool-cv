@@ -1,1 +1,1 @@
-# rsschool-cv
+https://antipovme.github.io/rsschool-cv/cv
