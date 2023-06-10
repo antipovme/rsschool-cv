@@ -3,7 +3,7 @@ layout: cv
 title: Antipov Mihail CV
 ---
 # Антипов Михаил
-будующий frontEnd-разработчик.
+будующий frontEnd-разработчик.<br>
 
 ## Обо мне
 
