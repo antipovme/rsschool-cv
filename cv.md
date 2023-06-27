@@ -90,4 +90,3 @@ I am considering getting the following skills in this course:
 ### Language
 
 - Level A2, elementary. I read technical documentation, periodically using Google Translate.
-
