@@ -70,7 +70,6 @@ p {
     font-weight: 500;
     line-height: normal;
 }
-
 .navbar {
     border-radius: 10px;
     background: #F1F1F1;
@@ -198,7 +197,6 @@ p {
     margin-top: 50px;
     width: 960px;
 }
-
 .language li {
     margin-left: 5px;
     margin-bottom: 10px;
@@ -211,8 +209,6 @@ p {
     font-weight: 400;
     line-height: normal;
 }
-
-
 .code {
     margin-top: 50px;
     width: 960px;
@@ -260,8 +256,3 @@ footer .rs_logo {
     color:#faea68;
     font-size: 16px;
 }
-
-
-
-
-
