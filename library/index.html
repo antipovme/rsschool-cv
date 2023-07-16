@@ -8,75 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
+        <div class="header_nav">
+            <h1 class="header_nav_text">Brooklyn Public Library</h1>
+        </div>
         <nav>
-            <div class="conainer">
-                <p class="library_name">Brooklyn Public Library</p>
-                <ul class="menu">
-                    <li class="menu__item"><a href="#">About</a></li>
-                    <li class="menu__item"><a href="#">Favorites</a></li>
-                    <li class="menu__item"><a href="#">Coffee shop</a></li>
-                    <li class="menu__item"><a href="#">Contacts</a></li>
-                    <li class="menu__item"><a href="#">Library Card</a></li>
-                </ul>
-                <img src="/library/icons/welcome_icon_profile.svg" alt="icon_profile">
-            </div>
+            <ul class="navigation">
+                <li class="navigation_menu_item"><a href="#about">About</a></li>
+                <li class="navigation_menu_item"><a href="#favorites">Favorites</a></li>
+                <li class="navigation_menu_item"><a href="#coffee_shop">Coffee Shop</a></li>
+                <li class="navigation_menu_item"><a href="#contacts">Contacts</a></li>
+                <li class="navigation_menu_item"><a href="#digital_cards">Library Card</a></li>
+            </ul>
         </nav>
-        <div class="title">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="title_text"></div>
-                        <h1>Welcome to the Brooklyn Library</h1>
-                    </div>
-                </div>
-            </div>
+        <div class="logo">
+            <img src="/icons/welcome_icon_profile.png" alt="icon_profile">
         </div>
     </header>
-    <main>
-        <section class="about">
-            <div class="container">
-                <div class="label">
-                    About
-                </div>
-            </div>
-        </section>
-        <div class="section favorites">
-            <div class="container">
-                <div class="label">
-                    Favorites
-                </div>
-            </div>
-        </div>
-        <section class="coffee_shop">
-            <div class="container">
-                <div class="label">
-                    Coffee shop
-                </div>
-            </div>
-        </section>
-        <section class="contacts">
-            <div class="container">
-                <div class="label">
-                    Our Contacts
-                </div>
-            </div>
-        </section>
-        <section class="digital_cards">
-            <div class="container">
-                <div class="label">
-                    Digital Library Cards
-                </div>
-            </div>
-        </section>
-        <footer>
-
-        </footer>
     </main>
 </body>
 </html>

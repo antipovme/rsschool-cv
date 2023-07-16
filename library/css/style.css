@@ -1,3 +1,51 @@
 * {
-    width: 1440px;;
+  margin: 0 auto;
 }
+
+header {
+  max-width: 1440px;
+  height: 90px;
+  background-color: #0C0C0E;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav {
+  margin-left: 454px;
+  margin-right: 0;
+}
+
+.header_nav {
+  margin: 0;
+}
+.header_nav_text {
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Forum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  font-family: Forum;
+  text-align: left;
+}
+
+.navigation {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navigation_menu_item {
+  list-style: none;
+}
+.navigation a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}/*# sourceMappingURL=style.css.map */
