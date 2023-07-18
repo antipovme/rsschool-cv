@@ -1,10 +1,14 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 header {
-  max-width: 1440px;
-  height: 90px;
   background-color: #0C0C0E;
   padding: 20px 20px 20px 20px;
   display: flex;
@@ -13,28 +17,23 @@ header {
 }
 header nav {
   margin-left: 454px;
-  margin-right: 0;
 }
 
-.header_nav {
-  margin: 0;
-}
 .header_nav_text {
-  margin: 0 auto;
+  margin-bottom: 0;
   color: #FFFFFF;
   font-family: Forum;
   font-size: 30px;
   font-weight: 400;
   line-height: 50px;
-  font-family: Forum;
-  text-align: left;
 }
 
 .navigation {
+  padding: 0;
+  margin: 0;
   display: flex;
+  align-items: center;
   gap: 30px;
-  padding-left: 0;
-  margin-bottom: 0;
 }
 .navigation_menu_item {
   list-style: none;
@@ -48,4 +47,62 @@ header nav {
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.logo {
+  display: flex;
+  gap: 40px;
+  margin-left: 40px;
+}
+.logo_icon {
+  width: auto;
+  max-height: 28px;
+}
+
+.welcome {
+  display: flex;
+  min-height: 600px;
+  background: url("/img/bg/bg_welcome.jpg") center center/cover no-repeat;
+}
+.welcome_block {
+  width: 520px;
+  margin-top: 255px;
+  margin-bottom: 195px;
+  padding: 35px 40px;
+  background-color: #0C0C0E;
+}
+.welcome_block_header {
+  margin: 0;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* .welcome {
+    position: relative;
+    min-height: 600px;
+    background: url('/img/bg/bg_welcome.jpg') center (center / cover) no-repeat;
+    &_block {
+        position: absolute;
+        padding: 35px 40px;
+        top: 255px;
+        background-color: $color-black1;
+        &_header {
+            min-width: 520px;
+            margin-bottom: 0;
+            color: $color-white;
+            text-align: center;
+            font-family: Forum;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px;
+            text-transform: uppercase;
+        }
+    }
+}
+ *//*# sourceMappingURL=style.css.map */
