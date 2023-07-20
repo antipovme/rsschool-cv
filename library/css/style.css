@@ -86,4 +86,83 @@ header nav {
   text-transform: uppercase;
   line-height: 50px;
   letter-spacing: 3px;
+}
+
+.title_wrapper .title {
+  margin: 20px 0 20px;
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.title_wrapper .line {
+  margin: 0 auto;
+  width: 50px;
+  height: 1px;
+  background: #0C0C0E;
+}
+.title_wrapper .subtitle {
+  margin: 40px 0 20px;
+  color: #000000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.about .carousel {
+  margin: 0 20px;
+  display: flex;
+  gap: 25px;
+}
+.about .carousel_pagination {
+  margin: 40px 0 40px;
+}
+.about .carousel_pagination .carousel_wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 68px;
+  height: 16px;
+}
+.about .carousel_pagination .carousel_wrapper .carousel_button_1 {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background-color: #BB945F;
+  cursor: pointer;
+}
+.about .carousel_pagination .carousel_wrapper .carousel_button_2 {
+  margin: 0 10px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background-color: #0C0C0E;
+  cursor: pointer;
+}
+.about .carousel_pagination .carousel_wrapper .carousel_button_3 {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background-color: #0C0C0E;
+  cursor: pointer;
+}
+
+.favorites .imput {
+  margin: 40px 20px;
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */

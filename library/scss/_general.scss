@@ -86,3 +86,88 @@ header {
         }
     }
 }
+
+.title_wrapper {
+    .title {
+        margin: 20px 0 20px;
+        color: $color-black1;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .line {
+        margin: 0 auto;
+        width: 50px;
+        height: 1px;
+        background: $color-black1;
+    }
+    .subtitle {
+        margin: 40px 0 20px;
+        color: $color-black2;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+}
+
+.about {
+    .carousel {
+        margin: 0 20px;
+        display: flex;
+        gap: 25px;
+    }
+    .carousel_pagination {
+        margin: 40px 0 40px;
+        .carousel_wrapper {
+            display: flex;
+            margin: 0 auto;
+             width: 68px;
+             height: 16px;
+            .carousel_button_1 {
+                display: block;
+                width: 16px;
+                height: 16px;
+                border-radius: 100px;
+                background-color: $third-color;
+                cursor: pointer;
+            }
+            .carousel_button_2 {
+                margin: 0 10px;
+                display: block;
+                width: 16px;
+                height: 16px;
+                border-radius: 100px;
+                background-color: $color-black1;
+                cursor: pointer;
+            }
+            .carousel_button_3 {
+                display: block;
+                width: 16px;
+                height: 16px;
+                border-radius: 100px;
+                background-color: $color-black1;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.favorites {
+    .imput {
+        margin: 40px 20px;
+        color: $color-black1;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
