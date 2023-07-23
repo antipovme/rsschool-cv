@@ -263,3 +263,56 @@ header {
         }
     }
 }
+
+.coffeeshop {
+    padding: 20px 20px 40px 20px;
+    &_menu_column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &_1 {
+            max-height: 520px;
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+        }
+        &_2 {
+            max-height: 520px;
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+        }
+    }
+    &_menu_item {
+        display: flex;
+        gap: 60px;
+        flex-direction: row;
+        align-items: center;
+        p {
+            margin-bottom: 0;
+            color: #000;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 200% */
+            letter-spacing: 2px;
+            text-transform: capitalize;
+        }
+        &_line {
+            width: 100px;
+            height: 1px;
+            background-color: $third-color;
+        }
+    }
+    &_menu_title {
+        color: $third-color;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 100% */
+        letter-spacing: 2px;
+        text-transform: capitalize;
+    }
+}

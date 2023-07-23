@@ -259,4 +259,57 @@ header nav {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.coffeeshop {
+  padding: 20px 20px 40px 20px;
+}
+.coffeeshop_menu_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coffeeshop_menu_column_1 {
+  max-height: 520px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.coffeeshop_menu_column_2 {
+  max-height: 520px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.coffeeshop_menu_item {
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: center;
+}
+.coffeeshop_menu_item p {
+  margin-bottom: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.coffeeshop_menu_item_line {
+  width: 100px;
+  height: 1px;
+  background-color: #BB945F;
+}
+.coffeeshop_menu_title {
+  color: #BB945F;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
