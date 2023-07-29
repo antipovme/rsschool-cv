@@ -89,7 +89,7 @@ header nav {
 }
 
 .title_wrapper .title {
-  margin: 0 20px;
+  margin: 20px 0 20px;
   color: #0C0C0E;
   font-family: Forum;
   font-size: 40px;
@@ -255,6 +255,12 @@ header nav {
   font-weight: 700;
   line-height: normal;
 }
+.description_book_item_btn:hover {
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: all 800ms ease;
+}
 .description_book_item_img {
   position: absolute;
   right: 0;
@@ -374,4 +380,155 @@ header nav {
 }
 .ourcontacts .column_1_name p {
   padding-bottom: 20px;
+}
+
+.digitalcards {
+  padding: 20px 20px 40px 20px;
+}
+.digitalcards_wrapper {
+  display: flex;
+  margin-top: 40px;
+}
+.digitalcards .digitalcards_column_1 {
+  flex-grow: 1;
+}
+.digitalcards .digitalcards_column_1 p {
+  color: #000000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.digitalcards .digitalcards_column_1 .form_border {
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 600px;
+  height: 387px;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #BB945F;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.digitalcards .digitalcards_column_1 .form_card {
+  padding: 20px 0 20px 20px;
+  display: inherit;
+  width: 560px;
+  height: 272px;
+  background: #BB945F;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.digitalcards .digitalcards_column_1 .form_card .card_title {
+  color: #000;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+}
+.digitalcards .digitalcards_column_1 .form_card input {
+  border: none;
+}
+.digitalcards .digitalcards_column_1 .form_card input::placeholder {
+  padding: 8px 0 8px 20px;
+  color: #8E8E8E;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+}
+.digitalcards .digitalcards_column_1 .form_card input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.digitalcards .digitalcards_column_1 .form_card .card_name {
+  width: 520px;
+  height: 66px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.digitalcards .digitalcards_column_1 .form_card .card_number {
+  margin-top: 25px;
+  width: 520px;
+  height: 66px;
+  border-radius: 10px;
+}
+.digitalcards .digitalcards_column_1 .card_btn {
+  padding: 10px 40px;
+  margin-top: 20px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+}
+.digitalcards .digitalcards_column_1 .card_btn:hover {
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: all 800ms ease;
+}
+.digitalcards .digitalcards_column_2 {
+  flex-grow: 1;
+}
+.digitalcards .digitalcards_column_2 p {
+  color: #000000;
+  text-align: right;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.digitalcards .digitalcards_column_2_text {
+  color: #000000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.4px;
+}
+.digitalcards .digitalcards_column_2 button {
+  margin-top: 35px;
+  width: 75px;
+  height: 30px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.digitalcards .digitalcards_column_2 button:hover {
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: all 800ms ease;
+}
+.digitalcards .digitalcards_column_2 .button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
