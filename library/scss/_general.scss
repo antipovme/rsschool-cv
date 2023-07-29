@@ -266,6 +266,7 @@ header {
 
 .coffeeshop {
     padding: 20px 20px 40px 20px;
+    display: flex;
     &_menu_column {
         display: flex;
         flex-direction: row;
@@ -283,11 +284,36 @@ header {
             flex-direction: column;
         }
     }
-    &_menu_item {
+    &_menu_item_1 {
         display: flex;
         gap: 60px;
         flex-direction: row;
         align-items: center;
+        justify-content: flex-start;
+        p {
+            margin-bottom: 0;
+            color: #000;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 200% */
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            width: 200px;
+        }
+        &_line {
+            width: 100px;
+            height: 1px;
+            background-color: $third-color;
+        }
+    }
+    &_menu_item_2 {
+        display: flex;
+        gap: 60px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
         p {
             margin-bottom: 0;
             color: #000;

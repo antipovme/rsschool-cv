@@ -263,6 +263,7 @@ header nav {
 
 .coffeeshop {
   padding: 20px 20px 40px 20px;
+  display: flex;
 }
 .coffeeshop_menu_column {
   display: flex;
@@ -281,13 +282,38 @@ header nav {
   gap: 40px;
   flex-direction: column;
 }
-.coffeeshop_menu_item {
+.coffeeshop_menu_item_1 {
   display: flex;
   gap: 60px;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
 }
-.coffeeshop_menu_item p {
+.coffeeshop_menu_item_1 p {
+  margin-bottom: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  width: 200px;
+}
+.coffeeshop_menu_item_1_line {
+  width: 100px;
+  height: 1px;
+  background-color: #BB945F;
+}
+.coffeeshop_menu_item_2 {
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.coffeeshop_menu_item_2 p {
   margin-bottom: 0;
   color: #000;
   font-family: Inter;
@@ -298,7 +324,7 @@ header nav {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
-.coffeeshop_menu_item_line {
+.coffeeshop_menu_item_2_line {
   width: 100px;
   height: 1px;
   background-color: #BB945F;
