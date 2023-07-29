@@ -351,6 +351,10 @@ header {
         justify-content: space-between;
     }
     .column_1 {
+        .url_mail, .url_phone {
+            text-decoration: none;
+            color: $color-black2;
+        }
         p {
             margin: 0;
             color: $color-black2;
