@@ -50,6 +50,19 @@ header {
         font-style: normal;
         font-weight: 400;
         line-height: 50px;
+        &::after {
+            background-color: $third-color;
+            display: block;
+            content: "";
+            height: 2px;
+            width: 0%;
+            transition-duration: .5s;
+            cursor: pointer;
+        }
+        &:hover:after, :focus:after {
+            width: 100%;
+        }
+
     }
 }
 .logo {
