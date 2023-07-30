@@ -18,6 +18,9 @@ header {
 header nav {
   margin-left: 454px;
 }
+header * section {
+  padding: 20px 20px 40px 20px;
+}
 
 .header_nav_text {
   margin-bottom: 0;
@@ -72,7 +75,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin-top: 255px;
+  margin-top: 219px;
   background-color: #0C0C0E;
 }
 .welcome_block_header {
@@ -89,7 +92,7 @@ header nav {
 }
 
 .title_wrapper .title {
-  margin: 20px 0 20px;
+  margin-bottom: 20px;
   color: #0C0C0E;
   font-family: Forum;
   font-size: 40px;
@@ -108,22 +111,46 @@ header nav {
 }
 .title_wrapper .subtitle {
   margin: 40px 0 20px;
-  color: #000000;
-  text-align: center;
+  color: #000;
   font-family: Inter;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.title_wrapper .subtitle_about {
+  margin: 40px 0 20px;
+  color: #000;
+  font-family: Inter;
+  text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
 }
+.title_wrapper .subtitle_coffe {
+  margin-top: 40px;
+  color: #000;
+  font-family: Inter;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
 
+.about {
+  padding: 20px 20px 40px 20px;
+}
 .about .carousel {
-  margin: 0 20px;
   display: flex;
   gap: 25px;
 }
 .about .carousel_pagination {
-  margin: 40px 0 40px;
+  margin-top: 40px;
 }
 .about .carousel_pagination .carousel_wrapper {
   display: flex;
@@ -209,7 +236,7 @@ header nav {
   text-transform: capitalize;
 }
 .description_book_item .gold_line {
-  margin-top: 13px;
+  margin-top: 10px;
   margin-bottom: 34px;
   width: 60px;
   height: 1px;
@@ -231,6 +258,7 @@ header nav {
   letter-spacing: 2px;
 }
 .description_book_item_text {
+  margin-top: 30px;
   display: block;
   width: 355px;
   height: 320px;
@@ -272,6 +300,7 @@ header nav {
   display: flex;
 }
 .coffeeshop_menu_column {
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -295,7 +324,7 @@ header nav {
   align-items: center;
   justify-content: flex-start;
 }
-.coffeeshop_menu_item_1 p {
+.coffeeshop_menu_item_1_name {
   margin-bottom: 0;
   color: #000000;
   font-family: Inter;
@@ -304,7 +333,17 @@ header nav {
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 2px;
-  text-transform: capitalize;
+  width: 200px;
+}
+.coffeeshop_menu_item_1_price {
+  margin-bottom: 0;
+  color: #000000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
   width: 200px;
 }
 .coffeeshop_menu_item_1_line {
@@ -319,7 +358,7 @@ header nav {
   align-items: center;
   justify-content: flex-end;
 }
-.coffeeshop_menu_item_2 p {
+.coffeeshop_menu_item_2_name {
   margin-bottom: 0;
   color: #000000;
   font-family: Inter;
@@ -328,14 +367,37 @@ header nav {
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 2px;
-  text-transform: capitalize;
+}
+.coffeeshop_menu_item_2_price {
+  margin-bottom: 0;
+  color: #000000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
 }
 .coffeeshop_menu_item_2_line {
   width: 100px;
   height: 1px;
   background-color: #BB945F;
 }
-.coffeeshop_menu_title {
+.coffeeshop_menu_title_1 {
+  display: flex;
+  justify-content: flex-start;
+  color: #BB945F;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.coffeeshop_menu_title_2 {
+  display: flex;
+  justify-content: flex-end;
   color: #BB945F;
   font-family: Forum;
   font-size: 40px;
@@ -389,10 +451,8 @@ header nav {
   display: flex;
   margin-top: 40px;
 }
-.digitalcards .digitalcards_column_1 {
-  flex-grow: 1;
-}
 .digitalcards .digitalcards_column_1 p {
+  margin-bottom: 30px;
   color: #000000;
   text-align: center;
   font-family: Inter;
@@ -403,15 +463,11 @@ header nav {
   letter-spacing: 0.6px;
 }
 .digitalcards .digitalcards_column_1 .form_border {
-  flex-direction: column;
-  align-content: center;
+  padding: 18px 20px 0px 20px;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   display: flex;
   width: 600px;
   height: 387px;
-  padding-bottom: 0px;
   justify-content: center;
   align-items: center;
   border: 3px solid #BB945F;
@@ -419,7 +475,7 @@ header nav {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .digitalcards .digitalcards_column_1 .form_card {
-  padding: 20px 0 20px 20px;
+  padding: 20px 20px 25px 20px;
   display: inherit;
   width: 560px;
   height: 272px;
@@ -433,8 +489,9 @@ header nav {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 40px;
   letter-spacing: 0.6px;
+  margin-bottom: 20px;
 }
 .digitalcards .digitalcards_column_1 .form_card input {
   border: none;
@@ -467,7 +524,7 @@ header nav {
 }
 .digitalcards .digitalcards_column_1 .card_btn {
   padding: 10px 40px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   color: #0C0C0E;
   text-align: center;
   font-family: Inter;
@@ -499,6 +556,7 @@ header nav {
   letter-spacing: 0.6px;
 }
 .digitalcards .digitalcards_column_2_text {
+  margin-top: 35px;
   color: #000000;
   text-align: right;
   font-family: Inter;
@@ -574,7 +632,7 @@ footer {
 }
 
 .footer_line {
-  margin: 30px 0 44px;
+  margin: 20px 0 45px;
   width: 1400px;
   height: 1px;
   background: #FFF;
