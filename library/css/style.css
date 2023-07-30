@@ -21,6 +21,9 @@ header nav {
 header * section {
   padding: 20px 20px 40px 20px;
 }
+header html {
+  scroll-behavior: smooth;
+}
 
 .header_nav_text {
   margin-bottom: 0;
@@ -207,6 +210,7 @@ header * section {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  accent-color: #000000;
 }
 .favorites .radio {
   display: flex;
@@ -214,6 +218,8 @@ header * section {
   gap: 90px;
 }
 .favorites .radio input {
+  cursor: pointer;
+  position: relative;
   width: 17px;
   height: 17px;
   margin-right: 20px;

@@ -21,6 +21,10 @@ header {
     padding: 20px 20px 40px 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+    }
+
 }
 .header_nav {
     &_text {
@@ -209,12 +213,15 @@ header {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        accent-color: $color-black2;
     }
     .radio {
         display: flex;
         padding-top: 40px;
         gap: 90px;
         input {
+            cursor: pointer;
+            position: relative;
             width: 17px;
             height: 17px;
             margin-right: 20px;
