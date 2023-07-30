@@ -534,11 +534,16 @@ header nav {
 }
 
 footer {
+  padding: 20px 20px 44px 20px;
   background: #0C0C0E;
 }
 
 .footer_wrapper {
   display: flex;
+  justify-content: space-between;
+}
+.footer_wrapper .footer_adress {
+  width: 230px;
 }
 .footer_wrapper .footer_adress a {
   text-decoration: none;
@@ -549,6 +554,12 @@ footer {
   font-weight: 400;
   line-height: 20px;
 }
+.footer_wrapper .footer_icons {
+  display: flex;
+  gap: 15px;
+  height: 40px;
+  margin-top: 10px;
+}
 .footer_wrapper .time_1, .footer_wrapper .time_2 {
   color: #FFF;
   text-align: right;
@@ -558,8 +569,12 @@ footer {
   font-weight: 400;
   line-height: 20px;
 }
+.footer_wrapper .time_1:last-child, .footer_wrapper .time_2:last-child {
+  margin-top: 10px;
+}
 
 .footer_line {
+  margin: 30px 0 44px;
   width: 1400px;
   height: 1px;
   background: #FFF;
@@ -574,7 +589,7 @@ footer {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 100% */
+  line-height: 20px;
   letter-spacing: 2px;
 }
 .rsschool a {
