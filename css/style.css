@@ -80,7 +80,7 @@ header html {
 .welcome {
   display: flex;
   min-height: 600px;
-  background: url("/img/bg/bg_welcome.jpg") center center/cover no-repeat;
+  background: url("../img/bg/bg_welcome.jpg") center center/cover no-repeat;
 }
 .welcome_block {
   display: flex;
